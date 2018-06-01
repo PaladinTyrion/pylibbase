@@ -21,6 +21,7 @@ RUN apt-get install -y --allow-unauthenticated apt-utils tzdata bash procps vim 
     && apt-get remove -y \
     && apt-get clean -y
 
+WORKDIR /workplace/lib
 VOLUME [ "/workplace/lib" ]
 
 CMD [ "/bin/bash" ]
