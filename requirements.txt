@@ -1,0 +1,14 @@
+setuptools
+wheel
+six
+requests
+protobuf
+numpy
+scipy
+pandas
+sklearn
+Keras
+h5py
+matplotlib
+tensorflow
+tensorflow-tensorboard
